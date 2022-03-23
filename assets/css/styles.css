@@ -1,3 +1,14 @@
+.main{
+    margin: auto
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
 .underline{
     
     background: 
@@ -9,4 +20,13 @@
 
 .underline:hover{
     --d: 100%;
+}
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    
 }
