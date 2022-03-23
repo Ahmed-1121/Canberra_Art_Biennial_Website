@@ -10,7 +10,7 @@
 }
 
 .underline{
-    
+    font-size: 25px;
     background: 
       linear-gradient(currentColor 0 0) 
       bottom /var(--d, 0) 3px 
@@ -27,6 +27,8 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    padding-top: 30px;
+    
+    padding-left: 180px;
+    padding-right: 180px;
     
 }
