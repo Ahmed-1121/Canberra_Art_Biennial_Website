@@ -2,6 +2,10 @@
     margin: auto
 }
 
+.wrapper { 
+width:980px; margin-right: auto; margin-left: auto; margin-top: 0; margin-bottom: 0; 
+}
+
 #logo{
     display: flex;
     justify-content: center;
@@ -27,8 +31,9 @@
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    
+    /*
     padding-left: 180px;
     padding-right: 180px;
+    */
     
 }
