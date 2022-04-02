@@ -1,13 +1,13 @@
 .main{
-    margin: auto;
+    
         
 }
 
 .background_image{
-    height: 400px;
+    height: 100%;
     width: 100%;
     background-image: url("/assets/images/lanscape.jpg");
-    background-repeat: no-repeat;
+    
 }
 
 .wrapper { 
