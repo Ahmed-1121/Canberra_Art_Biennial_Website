@@ -1,34 +1,66 @@
-.main{
+body{
     
+    margin: auto;
+    
+    
+   
         
 }
 
 .background_image{
-    height: 100%;
-    width: 100%;
+    
     background-image: url("/assets/images/lanscape.jpg");
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
     
 }
 
 .wrapper { 
-    width:980px; margin-right: auto; margin-left: auto; margin-top: 0; margin-bottom: 0; 
+    width:auto; margin-right: auto; margin-left: auto; margin-top: 0; margin-bottom: 0; 
     
 }
+
 
 #logo{
 
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    
+    
     
     
 }
 
 
 
+
+
+
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    
+    padding-left: 180px;
+    padding-right: 180px;
+    
+    padding-bottom: 1000px;
+    
+    
+}
+
 .underline{
+    
     font-size: 25px;
+    color: black;
+    text-decoration: none;
     background: 
       linear-gradient(currentColor 0 0) 
       bottom /var(--d, 0) 3px 
@@ -36,7 +68,13 @@
   transition:0.5s;
 }
 
+.underline:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .underline:hover{
+    color: black;
     --d: 100%;
     cursor: pointer;
 }
@@ -66,20 +104,13 @@
 .dropdown:hover .dropdown_content {display: block;}
 
 
-
-.topnav{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    /*
-    padding-left: 180px;
-    padding-right: 180px;
-    */
+#main_slogen{
+    color: white;
     
 }
-
+/*
 .img{
     display: flex;
     flex-direction: row;
 }
+*/
