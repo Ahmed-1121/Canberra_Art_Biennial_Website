@@ -25,9 +25,12 @@ body{
     width:auto; margin-right: auto; margin-left: auto; margin-top: 0; margin-bottom: 0; 
     
 }
+.right{
+    float: right;
+}
 
 
-#logo{
+.logo{
 
     display: flex;
     justify-content: center;
@@ -35,6 +38,9 @@ body{
     padding-bottom: 2.5%
     
     
+    
+}
+.logo2{
     
 }
 
@@ -111,7 +117,7 @@ body{
 }
 
 .section_1_slogen{
-   margin-left: 5%;
+   margin-left: calc(70% - 250px);
      padding-bottom: 20%;
     
 }
