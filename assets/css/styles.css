@@ -104,15 +104,20 @@ body{
 .dropdown:hover .dropdown_content {display: block;}
 
 
-#main_slogen{
+.main_slogen{
     color: white;
     
 }
 
 .middle{
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
+}
+#middle2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .b{
@@ -122,8 +127,23 @@ body{
     justify-content: center;
     justify-content: space-between;
     padding-left: 10%;
-    padding-right: 10%
+    padding-right: 10%;
+    margin: 1%
+    
         
+    
+}
+
+.background_image2{
+    background-image: url("/assets/images/main_section3.jpg");
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section_3_box{
     
 }
 
