@@ -40,9 +40,6 @@ body{
     
     
 }
-.logo2{
-    
-}
 
 
 
@@ -186,6 +183,31 @@ body{
     float: right;
     margin-right: 15%;
 }
+
+.news_inline{
+    display: inline-flex;
+    margin-left: 11.5%;
+    margin-bottom: 2%;
+}
+.news_left{
+    
+    
+}
+
+.news_right{
+   margin-left: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.news_right:visited{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
 
 .footer{
     
