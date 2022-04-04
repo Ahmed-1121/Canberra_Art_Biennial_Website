@@ -31,7 +31,8 @@ body{
 
     display: flex;
     justify-content: center;
-    
+    padding-top: 5%;
+    padding-bottom: 2.5%
     
     
     
@@ -51,7 +52,7 @@ body{
     padding-left: 180px;
     padding-right: 180px;
     
-    padding-bottom: 1000px;
+    padding-bottom: 20%;
     
     
 }
@@ -109,6 +110,12 @@ body{
     
 }
 
+.section_1_slogen{
+   margin-left: 5%;
+     padding-bottom: 20%;
+    
+}
+
 .middle{
     display: flex;
     
@@ -144,6 +151,37 @@ body{
 }
 
 .section_3_box{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+        
+}
+
+.section_3_div{
+    margin-left: 5%;
+}
+
+#section_3_header{
+    margin-bottom: 5%;
+}
+
+.section_4{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.section_4_div{
+    margin-left: 15%;
+    float: left;
+}
+
+.section_4_img{
+    float: right;
+    margin-right: 15%;
+}
+
+.footer{
     
 }
 
