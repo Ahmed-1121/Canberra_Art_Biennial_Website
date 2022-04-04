@@ -206,7 +206,16 @@ body{
     
 }
 
+.centere_button{
+    display: flex;
+    justify-content: center;
+}
 
+.centre_p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 
 .footer{
