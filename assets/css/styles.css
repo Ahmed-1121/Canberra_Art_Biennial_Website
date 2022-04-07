@@ -276,7 +276,34 @@ div.desc {
 
 
 
-/*slide show css begin*/
+
+
+
+.centre_2022{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+footer{ 
+    margin-top: 50%;
+    position:relative;
+    background-color: black;
+    bottom: 0;
+    
+}
+
+.div_footer{
+    
+    padding-top: 5%;
+    
+}
+
+/*slide show*/
 * {
   box-sizing: border-box;
 }
@@ -363,45 +390,6 @@ div.desc {
 .demo:hover {
   opacity: 1;
 }
-
-.slide_show_img{
-    width:100%;
-    height: 600px;
-    object-fit: scale-down;
-}
-
-.the_slide_show_img{
-    width: 100%;
-}
-
-
-/*slide show css end*/
-
-
-.centre_2022{
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-
-
-
-footer{ 
-    margin-top: 50%;
-    position:relative;
-    background-color: black;
-    bottom: 0;
-    
-}
-
-.div_footer{
-    
-    padding-top: 5%;
-    
-}
-
 
 /*
 .img{
