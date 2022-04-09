@@ -149,7 +149,30 @@ h5 {
 .section_1_slogen{
    margin-left: calc(70% - 250px);
      padding-bottom: 20%;
+    margin-right: 3%;
     
+}
+
+.black_button{
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.black_border_button{
+    background-color: white; /* Green */
+  border: 2px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .middle{
@@ -317,16 +340,17 @@ textarea {
 
 div.gallery {
     
-  /*border: 1px solid #ccc;*/
+  border: 1px solid #ccc;
     margin: 2%;
     border-radius: 8px;
-    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
-    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+   /* box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);*/
         
 }
 
 div.gallery:hover {
   border: 1px solid #777;
+    
 }
 
 div.gallery img {
@@ -544,6 +568,26 @@ footer{
   padding: 2px 16px;
   background-color: #5cb85c;
   color: white;
+}
+
+
+.city_commissions_img{
+    width: 70%;
+    height: 70%;
+    margin-bottom: 5%;
+        
+}
+
+.right_line{
+    border-left: 1px solid lightgray;
+    padding-left: 1.5%;
+}
+
+.bottom_border{
+    
+    padding-bottom: 2%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 3%;
 }
 /*The Modal ends*/
 
