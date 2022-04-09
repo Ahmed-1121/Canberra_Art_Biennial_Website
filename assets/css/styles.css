@@ -5,8 +5,37 @@ body{
     height: auto;
     
     
+    
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Arial, sans-serif;
    
         
+}
+
+p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
 }
 
 .background_image{
@@ -179,13 +208,19 @@ body{
 }
 
 .section_4_div{
-    margin-left: 15%;
+    display: inline-grid;
+    width: 35%;
+    margin-left: 13%;
     float: left;
+    margin-right: 2%;
 }
 
 .section_4_img{
+    display: inline-grid;
+    width: 35%;
     float: right;
-    margin-right: 15%;
+    margin-right: 13%;
+    margin-left 2%;
 }
 
 .news_inline{
@@ -210,6 +245,51 @@ body{
     
 }
 
+.donate{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+  background-color: ;
+}
+
+
+.donate_inpute {
+    width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid lightgray;
+      border-radius: 4px;
+}
+
+.donate_inpute_besides {
+  width: 49%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid lightgray;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
 .centere_button{
     display: flex;
     justify-content: center;
@@ -221,12 +301,28 @@ body{
     text-align: center;
 }
 
+.form_single_margin {
+    margin-bottom: 2%;
+}
+
+.form_double_margin {
+    margin-bottom: 6%;
+}
+
+.form_triple_margin {
+    margin-bottom: 10%;
+}
 
 
 
 div.gallery {
-  border: 1px solid #ccc;
-    margin: 2%
+    
+  /*border: 1px solid #ccc;*/
+    margin: 2%;
+    border-radius: 8px;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+        
 }
 
 div.gallery:hover {
@@ -237,6 +333,7 @@ div.gallery img {
   width: 100%;
     
   object-fit: scale-down;
+    border-radius: 8px;
 }
 
 div.desc {
@@ -311,6 +408,7 @@ footer{
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+    
 }
 
 /* Hide the images by default */
@@ -390,6 +488,64 @@ footer{
 .demo:hover {
   opacity: 1;
 }
+
+
+
+/* The Modal starts*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  top: 0;
+  background-color: #fefefe;
+  width: 100%;
+  
+  
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+/*The Modal ends*/
 
 /*
 .img{
