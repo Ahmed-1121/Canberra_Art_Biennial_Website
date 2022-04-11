@@ -769,6 +769,32 @@ footer{
         margin-top: 20%;
     }
     
+    .container{
+        width: 100%;
+        
+    }
+    
+    .mobile_2016{
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center
+    }
+    
+    .mobile_2016 h1{
+        margin-left: 10%;
+         margin-right: 10%;
+        
+    }
+    .mobile_2016 p{
+        margin-left: 10%;
+         margin-right: 10%;
+        
+    }
+    .mobile_2016 h2{
+        margin-left: 10%;
+         margin-right: 10%;
+        
+    }
     
     
 }
