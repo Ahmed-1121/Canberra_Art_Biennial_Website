@@ -762,6 +762,13 @@ footer{
         
     }
     
+    .center_supporter_mobile{
+        text-align: center;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 20%;
+    }
+    
     
     
 }
