@@ -638,6 +638,11 @@ footer{
     padding-left: 1.5%;
 }
 
+.right_line:hover{
+    border-left: 2px solid black;
+    
+}
+
 .bottom_border{
     
     padding-bottom: 2%;

@@ -17,3 +17,38 @@ function show() {
     x.style.display = "block";
   }
 }
+
+
+
+function bold() {
+    var x = document.getElementById("boldthis");
+    x.style.fontWeight = "bold";
+}
+
+function unbold() {
+    var x = document.getElementById("boldthis");
+    x.style.fontWeight = "400";
+}
+
+
+function bold2() {
+    var x = document.getElementById("boldthis2");
+    x.style.fontWeight = "bold";
+}
+
+function unbold2() {
+    var x = document.getElementById("boldthis2");
+    x.style.fontWeight = "400";
+}
+
+
+
+function bold3() {
+    var x = document.getElementById("boldthis3");
+    x.style.fontWeight = "bold";
+}
+
+function unbold3() {
+    var x = document.getElementById("boldthis3");
+    x.style.fontWeight = "400";
+}
