@@ -693,6 +693,52 @@ footer{
         
     }
     
+    .b {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .b img {
+        display: block;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        
+    }
+    
+    .section_4{
+        padding-bottom: 0;
+            
+    }
+    
+    .section_4_div{
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        padding-left: 3%;
+        padding-right: 3%;
+            
+            
+    }
+    
+     .section_4_img{
+        display: block;
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 4%;
+         
+            
+        
+    }
+    
+    
     .news_section{
         
     }
