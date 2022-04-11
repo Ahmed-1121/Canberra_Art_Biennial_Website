@@ -176,6 +176,19 @@ h5 {
   font-size: 16px;
 }
 
+.submit_button{
+    background-color: #52C1C8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+}
+
 .middle{
     display: flex;
     
@@ -833,6 +846,16 @@ footer{
         width: 100%;
         margin-bottom: 0;
         padding-bottom: 0;
+    }
+    
+    .form_mobile{
+        margin-top: 12%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .form_mobile_centre{
+        text-align: center;
     }
     
     
