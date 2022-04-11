@@ -785,6 +785,11 @@ footer{
          margin-right: 10%;
         
     }
+    .mobile_2016 h4{
+        margin-left: 10%;
+         margin-right: 10%;
+        
+    }
     .mobile_2016 p{
         margin-left: 10%;
          margin-right: 10%;
@@ -794,6 +799,19 @@ footer{
         margin-left: 10%;
          margin-right: 10%;
         
+    }
+    
+    .div_img_2022_mobile{
+        margin-top: 12%;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+    }
+    
+    .img_2022_mobile{
+        width: 70%;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     
     
