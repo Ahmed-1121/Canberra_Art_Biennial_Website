@@ -6,7 +6,8 @@
         
         <title>My Website</title>
         <meta charset="utf-8">
-       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" /> -->
+       
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -25,6 +26,59 @@
     </head>
     
     <body>
+    
+    
+    <div class="mobile_header">
+        <a class="logo_mobile" href="index.html">
+          <img src="assets/images/logo4.png" width="50%" height="50%">
+          </a>
+          
+          <img class="hamburger_icon" onclick="show()" src="assets/images/Hamburger_icon.png" width="7%" height="7%">
+          
+          <div class="show_menu" id="show_menu2" >
+        <img  onclick="show()" class="close_icon" src="assets/images/close_icon.webp">
+        
+        
+        
+        <div class="menu_items_margin">
+           <p class="menu_items"><strong>Menu</strong></p>
+           <a class="menu_items" href="index.html">Home</a>
+           <div class="form_single_margin"></div>
+           
+           <a class="menu_items" href="2022.html">Fistival</a>
+           
+           <div class="form_double_margin"></div>
+           
+          
+           
+           <div class="menu_items_branch_margin">
+                <a class="menu_items_branch" href="2022.html">2022</a>
+                  <a class="menu_items_branch" href="2020.html">2020</a>
+                  <a class="menu_items_branch" href="2018.html">2018</a>
+                  <a class="menu_items_branch" href="2016.html">2016</a>
+           </div>
+           
+           <div class="form_single_margin"></div>
+           
+           <a class="menu_items" href="news.html">News</a>
+           
+           <div class="form_single_margin"></div>
+           
+           <a class="menu_items" href="donate.html">Doante</a>
+           
+           <div class="form_single_margin"></div>
+           
+           <a class="menu_items" href="AboutUs.html">About Us</a>
+           
+            
+        </div>
+        
+    </div>
+    </div>
+    
+     
+     
+     
       <section>
        <div>
          
@@ -53,10 +107,10 @@
        </section>
        
        
-       <section>
+       <section class="news_section">
            <div class="news_inline">
               
-               <img src="assets/images/news_1.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_1.jpg">
               
                
                
@@ -66,7 +120,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_2.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_2.jpg">
               
                
                
@@ -76,7 +130,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_3.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_3.jpg" >
               
                
                
@@ -86,7 +140,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_4.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_4.jpg">
               
                
                
@@ -96,7 +150,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_5.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_5.jpg">
               
                
                
@@ -106,7 +160,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_6.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_6.jpg">
               
                
                
@@ -116,7 +170,7 @@
            
            <div class="news_inline">
               
-               <img src="assets/images/news_7.jpg" width="50%" height="50%">
+               <img class="news_img" src="assets/images/news_7.jpg">
               
                
                
@@ -126,6 +180,8 @@
            
            
        </section>
+       
+       <script src="JavaScript.js"></script>
         
     </body>
     
