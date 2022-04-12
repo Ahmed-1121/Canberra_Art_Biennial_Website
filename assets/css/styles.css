@@ -665,7 +665,7 @@ footer{
 }
 
 
-@media screen and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
     .topnav{
         display: none;
         
@@ -951,6 +951,40 @@ footer{
         display: none;
         
     }
+    
+    .city_commission_header_centre{
+        text-align: center;
+    }
+    
+    .right_line_mobile{
+        border-left: none;
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+        
+    }
+    
+    .right_line_mobile:focus-within{
+        border-left: none;
+        border-bottom: 2px solid lightgray;
+        text-align: center;
+        
+    }
+    
+    .bottom_border{
+    
+    padding-bottom: 0;
+    border-bottom: none;
+    margin-bottom: 0;
+}
+    
+    .bold_mobile{
+        font-weight: bold;
+    }
+    
+    .right_line:hover{
+    border-left: none;
+    
+}
     
     .logo{
         display: none
