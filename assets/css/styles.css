@@ -52,6 +52,17 @@ h5 {
     
 }
 
+.img_50{
+    width: 50%;
+    height: 50%;
+        
+}
+
+.img_7{
+    width: 7%;
+    height: 7%;
+}
+
 .wrapper { 
     width:auto; margin-right: auto; margin-left: auto; margin-top: 0; margin-bottom: 0; 
     
@@ -268,7 +279,7 @@ h5 {
 }
 
 .news_inline{
-    display: inline-flex;
+    display: flex;
     margin-left: 5%;
     margin-bottom: 2%;
 }
