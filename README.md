@@ -34,6 +34,7 @@ In the version that I developed, there are many things that I wanted to add or i
 3. I wanted to add a search feature to the website in order to facilitate the search for information or a specific artist.
 4. I wanted to make the website more compatible with the user by adding animations that make browsing the website more fun and attractive, especially for teenagers and young adults.
 5. I wanted to make the website provide more personalized content for mobile devices and tablets.
+6. Add a way to sort the news on the news page. Where the user can choose to categorize the news according to the date of its writing or arrange it according to importance or alphabetical order and others.
 
 
 
