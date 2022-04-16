@@ -166,7 +166,7 @@ h5 {
 }
 
 .black_button{
-    background-color: black; /* Green */
+    background-color: black; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -174,10 +174,11 @@ h5 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+    
 }
 
 .black_border_button{
-    background-color: white; /* Green */
+    background-color: white; 
   border: 2px solid black;
   color: black;
   padding: 15px 32px;
@@ -185,6 +186,7 @@ h5 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+    
 }
 
 .submit_button{
@@ -195,6 +197,7 @@ h5 {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+    
     
     
     
@@ -219,7 +222,7 @@ h5 {
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
-    margin: 1%
+    margin: 1%;
     
         
     
