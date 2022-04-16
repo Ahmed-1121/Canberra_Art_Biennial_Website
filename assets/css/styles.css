@@ -277,7 +277,7 @@ h5 {
     width: 33%;
     float: right;
     margin-right: 13%;
-    margin-left 2%;
+    margin-left: 2%;
     margin-bottom: 5%;
 }
 
@@ -293,10 +293,6 @@ h5 {
     object-fit: scale-down;
 }
 
-.news_left{
-    
-    
-}
 
 .news_right{
    margin-left: 30px;
@@ -321,7 +317,7 @@ select {
   box-sizing: border-box;
   border: 2px solid lightgray;
   border-radius: 4px;
-  background-color: ;
+  
 }
 
 
@@ -725,9 +721,7 @@ footer{
         display: none
     }
     
-    .section_1_slogen{
-        
-    }
+    
     
     .mobile_header{
         display: block;
@@ -850,9 +844,7 @@ footer{
     }
     
     
-    .news_section{
-        
-    }
+    
     
     .news_inline{
         display: block;
@@ -1120,9 +1112,7 @@ footer{
     }
     
     
-    .news_section{
-        
-    }
+    
     
     .news_inline{
         display: block;
