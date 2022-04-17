@@ -4,6 +4,18 @@
 
 This website is a redesign of the website (https://www.contour556.com.au/). The website was redesigned and several changes were made to provide a better user experience in terms of form and content, as well as making the site more compatible with mobile and tablet devices, and bringing life to the site by making the content more interactive in terms of design.
 
+## production processes
+
+The website was developed through the following steps:
+
+1. Understand the idea of the original website.
+2. Identify defects and problems in the original website.
+3. Draw a quick outline of the website that will be developed.
+4. The work began on the code page by page so that one page would be completely programmed, then move to the next page.
+5. Verify that the design is fully compatible and responsive to various devices.
+6. Verify that the website is free of typographical errors. Help with this is an extension available in Brackets called Alice - Spell Checking.
+7. Verify that the site is free of programatical errors.
+
 ## User Interface
 
 To make the user interface more friendly, the number of items in the Navigation has been reduced from 8 to 4 in order to not distract the user and make them more focused on the most important information. The navigation has also been made interactive with the user so that a line with growing animation appears under the word that is hovered with the mouse pointer.
@@ -35,6 +47,14 @@ In the version that I developed, there are many things that I wanted to add or i
 4. I wanted to make the website more compatible with the user by adding animations that make browsing the website more fun and attractive, especially for teenagers and young adults.
 5. I wanted to make the website provide more personalized content for mobile devices and tablets.
 6. Add a way to sort the news on the news page. Where the user can choose to categorize the news according to the date of its writing or arrange it according to importance or alphabetical order and others.
+
+## References:
+ 
+On the 2016, 2018 and 2020 pages, a code for the image gallery was used from the following website:
+ 
+w3schools, n.d. [Online]
+Available at: https://www.w3schools.com/css/css_image_gallery.asp
+[Accessed 7 April 2022].
 
 
 
