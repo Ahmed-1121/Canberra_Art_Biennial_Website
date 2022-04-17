@@ -1,4 +1,4 @@
-# front-end_assignment
+# Canberra Art Biennial Website
 
 ## Overview
 
