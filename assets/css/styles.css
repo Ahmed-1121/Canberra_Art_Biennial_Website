@@ -962,6 +962,15 @@ footer{
         text-align: center;
     }
     
+    .show_menu2{
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        margin-top: -15%;
+        overflow: hidden;
+    }
     
 }
 
