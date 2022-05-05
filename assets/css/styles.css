@@ -58,9 +58,19 @@ h5 {
         
 }
 
+.wrapper img{
+    width: 50%;
+    height: 50%;
+}
+
 .img_7{
     width: 7%;
     height: 7%;
+}
+
+.b img{
+    width: 47%;
+    height: 47%;
 }
 
 .wrapper { 
